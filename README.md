@@ -30,7 +30,7 @@ Connect OUT+ to 9V on the IC shield and OUT- to the GND on the IC shield.
 
 Make sure all the connections are correct.
 Connect Pin-3 of Arduino to S and Connect Pin-2 of Arduino to D. Leave the E pin. 
-Upload the [Motor_Code](/Arduino Code/motors/motors.ino) code to Arduino. 
+Upload the [Motor_Code](https://github.com/AJKBajwa/Conveyer_Cutter/tree/master/Arduino%20Code/motors/motors.ino) code to Arduino. 
 Change the delay_time variable at the top to 500 and start moving it down to control speed of the motor. Play around with this number only. 
 
 ## 2. Nema 42
