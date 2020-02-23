@@ -1,5 +1,6 @@
 #define step_pin 3
 #define dir_pin 2
+#define delay_time 10
 void setup() {
   // put your setup code here, to run once:
   pinMode(step_pin, OUTPUT);
@@ -11,7 +12,7 @@ void loop()
 {
   // put your main code here, to run repeatedly:
   digitalWrite(step_pin, HIGH);
-  delayMicroseconds(10);
+  delayMicroseconds(delay_time);
   digitalWrite(step_pin, LOW);
-  delayMicroseconds(10);
+  delayMicroseconds(delay_time);
 }
