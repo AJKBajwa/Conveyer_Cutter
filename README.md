@@ -9,7 +9,6 @@ Things you will need:
 7. Female to Male connectors jumper wires.
 
 ## 1. Nema 17
-### Wiring Diagram
 Place the DRV8825 IC in the module and make sure the pin names are the same on the module and the IC. The location of the current setting
 screw should be top left from what I remember.
 
@@ -31,3 +30,15 @@ Connect Pin-3 of Arduino to S and Connect Pin-2 of Arduino to D. Leave the E pin
 Upload the [Motor_Code](/Arduino Code/motors/motors.ino) code to Arduino. 
 Change the delay_time variable at the top to 500 and start moving it down to control speed of the motor. Play around with this number only. 
 
+## 2. Nema 42
+Red and Black form one pair of coils for the big motor. 
+The one without black tape are one pair and vice versa. 
+Wire the pair of coils to A and B. 
+(Note: Here the pair of coils are identified using names A and B whereas the Nema17 shield used 1 and 2 for naming pairs).
+
+Connect the positive voltage from supply to VCC and GND to GND.
+Connect the Pin-3 of Arduino to PUL+ and GND to PUL-
+Connect the Pin-2 of Arduino to DIR+ and GND to DIR-
+
+Upload the Arduino code. 
+Change the delay_time variable at the top start from 10 and move it up. 
