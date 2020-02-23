@@ -41,6 +41,8 @@ Wire the pair of coils to A and B.
 (Note: Here the pair of coils are identified using names A and B whereas the Nema17 shield used 1 and 2 for naming pairs).
 
 ![Nema-42](Images/Nema-42-driver.JPG)
+
+
 Connect the positive voltage from supply to VCC and GND to GND.
 Connect the Pin-3 of Arduino to PUL+ and GND to PUL-
 Connect the Pin-2 of Arduino to DIR+ and GND to DIR-
