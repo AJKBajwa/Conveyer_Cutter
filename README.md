@@ -1,6 +1,6 @@
 # Conveyer_Cutter
 Things you will need:
-1. DMM.
+1. Digital Multimeter.
 2. Wires for connections that we bought.
 3. Banana connectors for Power supply. 
 4. Power supply.
