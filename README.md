@@ -43,5 +43,5 @@ Connect the positive voltage from supply to VCC and GND to GND.
 Connect the Pin-3 of Arduino to PUL+ and GND to PUL-
 Connect the Pin-2 of Arduino to DIR+ and GND to DIR-
 
-Upload the Arduino code. 
+Upload the [Motor_code](https://github.com/AJKBajwa/Conveyer_Cutter/tree/master/Arduino%20Code/motors) to Arduino. 
 Change the delay_time variable at the top start from 10 and move it up. 
