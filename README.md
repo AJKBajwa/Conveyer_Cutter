@@ -8,6 +8,8 @@ Things you will need:
 6. Small screw driver and knife (IC has a very small screw).
 7. Female to Male connectors jumper wires.
 8. Male to Male connectors jumper wires.
+9. IC Shield and DRV drivers.
+10. Nema42 Driver.
 
 ## 1. Nema 17
 Place the DRV8825 IC in the module and make sure the pin names are the same on the module and the IC. The location of the current setting
