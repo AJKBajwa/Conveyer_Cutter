@@ -19,6 +19,7 @@ screw should be top left from what I remember.
 
 Connect the 4 pin Connector we bought in the white socket. 
 The pin names from the top as shown in the image above to the bottom are : 1B - 1A - 2A - 2B.
+The pins coming out of the motor are : 1A - 2A - 1B - 2B
 
 Connect one coil to 1B-1A and the other to 2A-2B.
 Note: Remember to keep the order same i.e. if you start from the right A of one coil comes then comes A of the second coil and so on. 
